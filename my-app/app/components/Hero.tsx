@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const Hero = () => {
     return (
-        <div className="w-screen bg-black h-screen">
+        <div className="max-w-screen bg-black h-screen">
             <div className="pt-5">
                 <Navbar buttonsArray={["Home" , "About us" , "Contact us" , "FAQ"]}></Navbar>
             </div>
