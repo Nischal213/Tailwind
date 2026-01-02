@@ -5,10 +5,10 @@ import { Button } from "./Button";
 export const Hero = () => {
     return (
         <div className="max-w-screen bg-black h-screen">
-            <div className="pt-5">
+            <div className="pt-5 animate-fade-in">
                 <Navbar buttonsArray={["Home" , "About us" , "Contact us" , "FAQ"]}></Navbar>
             </div>
-            <div className="flex-row">
+            <div className="flex flex-col animate-fade-in">
                 <h1 className="h-1/2 text-center text-6xl text-white font-mono font-semibold pt-50 pb-5 mx-120"> Spark Your Curiosity </h1>
                 <h3 className="h-1/2 text-center text-2xl text-[#8f8f8f] font-mono font-medium text-balance pb-7 mx-50"> Dive into a world where curiosity meets creativity, and every idea sparks something new. </h3>
                 <div className="flex justify-center gap-10">
