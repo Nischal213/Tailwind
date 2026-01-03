@@ -1,4 +1,5 @@
 "use client"
+import { EducationHistory } from "./components/EducationHistory";
 import { Hero } from "./components/Hero";
 import { Intro } from "./components/Intro";
 import { Scrollable } from "./components/Scrollable";
@@ -8,7 +9,8 @@ export default function Home() {
     <div className="max-w-screen h-screen">
       <Hero></Hero>
       <Intro></Intro>
-      <Scrollable languages={["python" , "java" , "react"]}></Scrollable>
+      <Scrollable languages={["python" , "java" , "react" , "tailwind" , "html" , "css" , "javascript" , "cpp"]}></Scrollable>
+      <EducationHistory></EducationHistory>
     </div>
   );
 }
