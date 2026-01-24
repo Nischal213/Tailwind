@@ -27,6 +27,12 @@
   text-wrap: balance;
 }
 
+.heading-4 {
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .btn-text {
   font-size: 1.125rem;     
   line-height: 1.75rem;    

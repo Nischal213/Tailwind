@@ -5,7 +5,7 @@ import { Button } from "./Button";
 export const Hero = () => {
     return (
         <div className="max-w-screen bg-black h-screen">
-            <div className="pt-5 animate-fade-in">
+            <div className="flex-row-centered pt-5 animate-fade-in">
                 <Navbar buttonsArray={["Home" , "About us" , "Contact us" , "FAQ"]}></Navbar>
             </div>
             <div className="flex-col-centered animate-fade-in">
